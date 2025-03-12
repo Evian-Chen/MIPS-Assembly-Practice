@@ -1,1 +1,53 @@
-# MIPS-Assembly-Practice
+# MIPS Assembly Practice
+
+This repository contains MIPS assembly projects developed as part of the **NTUST Computer Organization (2025)** course. These projects focus on practicing fundamental MIPS assembly programming techniques and understanding computer architecture concepts.
+
+## Environment Setup
+- **[MARS 4.5](https://github.com/aeris170/MARS-Theme-Engine.git)** - A lightweight MIPS simulator for executing assembly programs.
+- Compatible with **Windows, macOS, and Linux** (via Java Runtime Environment).
+
+## Techniques & Concepts Used
+This repository demonstrates various MIPS programming techniques, including:
+
+- **Basic I/O Operations** (`syscall` for reading/writing data)
+- **Arithmetic and Logical Operations** (`add`, `sub`, `mul`, `div`, `and`, `or`)
+- **Conditional Branching** (`beq`, `bne`, `bgt`, `blt`, `bge`, `ble`)
+- **Loop Structures** (`for`, `while`, `do-while` using `j`, `jal`, `jr`)
+- **Function Calls and Stack Management** (`jal`, `jr`, `push`, `pop`)
+- **Memory Management** (`.data`, `.text`, `la`, `lw`, `sw`)
+- **Array and String Processing**
+- **Bitwise Operations and Shifting**
+- **Recursive Function Implementations**
+
+## Projects
+
+### Project - 1
+
+In this start-up project, you are required to get familiar with both MARS (MIPS 
+Assembler and Runtime Simulator) programming environment and basic MIPS 
+(Microprocessor without Interlocked Pipeline Stages) instructions. 
+The letter grade system is popular with most prestigious international universities. 
+Compared to the one-hundred-percent numerical grade system, the letter grade system 
+helps students put into the proper perspective and avoid unnecessary competition by 
+comparing minor score differences. 
+
+| Numerical Grade | Letter Grade | Description |
+|---------------|-------------|------------------------------------------|
+| 90~100       | A+          | Superior.                                |
+| 85~89        | A           | Excellent.                               |
+| 80~84        | A-          | Excellent, but needs improvement.        |
+| 77~79        | B+          | Very good.                               |
+| 73~76        | B           | Good.                                    |
+| 70~72        | B-          | Good, but needs improvement.             |
+| 67~69        | C+          | Satisfactory.                            |
+| 63~66        | C           | Satisfactory, but needs improvement.     |
+| 60~62        | C-          | Satisfactory with major flaws.           |
+| 50~59        | D           | Unsatisfactory, repeat recommended.      |
+| 1~49         | E           | Failure.                                 |
+| 0            | X           | Not graded due to unexcused absences or other reasons. |
+
+
+Not graded due to unexcused absences or other reasons. 
+You are required to write a program to convert a numerical grade to the 
+corresponding letter grade along with the description according to the above conversion 
+table.
