@@ -51,3 +51,28 @@ Not graded due to unexcused absences or other reasons.
 You are required to write a program to convert a numerical grade to the 
 corresponding letter grade along with the description according to the above conversion 
 table.
+
+### Project - 2
+
+# Project 2 – MIPS Assembly (Recursive Digit Sum)
+
+In this project, you are required to write a **recursive program** in **MIPS Assembly** to compute the **sum of the digits** of an integer.
+The *sum of digits* function calculates the sum of all individual digits in a given **positive integer**. This function can be defined recursively as follows:
+1. **Use recursion** to implement the digit sum.
+2. **Prompt the user** to input a non-negative integer.
+3. **If the input is negative**, print `"Illegal input."`
+
+Eample I\O:
+```
+Please input a non-negative integer: 12345
+The sum of the digits of 12345 is 15.
+
+Please input a non-negative integer: 9876
+The sum of the digits of 9876 is 30.
+
+Please input a non-negative integer: 5
+The sum of digits of 5 is 5.
+
+Please input a non-negative integer: -543
+Illegal input.
+```
